@@ -16,6 +16,6 @@ Proposed contracts:
 
 A model may propose costume ideas and search terms. Claims about products and delivery must come from listing evidence. Secrets stay on the server. No model, framework, external API, runtime configuration, backend endpoint, or hosting target has been selected or integrated.
 
-Verification for this initialization: inspect tracked files and GPL text; check Markdown relative links and whitespace; verify GitHub repository visibility, pushed commit, and collaborator invitation separately. Runtime tests are not applicable to this documentation-only initialization. No paid calls or deployment.
+Verified for this initialization: Markdown relative links and complete GPL text pass local checks. GitHub readback confirms a private repository, a pushed main branch, detected GPL-3.0 license, and pending invitation 337196295 for andnic with write access. A follow-up formatting commit removes the license source’s extra trailing blank line; final whitespace verification is required before that commit. Runtime tests are not applicable to this documentation-only initialization. No paid calls or deployment.
 
 Update this canonical record in the same commit as future repository changes, distinguishing proposals, implementation, verification, and deployment.
