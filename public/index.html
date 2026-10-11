@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Costume Club — Find your party persona</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head><body>
+<header><a class="brand" href="/">✳ COSTUME CLUB</a><span class="header-note">A little imagination. A great entrance.</span><span class="pill">YOUR NEXT ALTER EGO</span></header>
+<main><nav aria-label="Progress"><span id="step1" class="active">01 <b>The occasion</b></span><i></i><span id="step2">02 <b>The look</b></span><i></i><span id="step3">03 <b>The pieces</b></span></nav>
+<section id="intro"><form id="event-form"><label for="event">What’s the event or party?</label><div class="input-row"><input id="event" name="event" placeholder="e.g. House of Yes Halloween, NYC" required minlength="2" maxlength="240"><button id="find" type="submit">Find my costume <span>↗</span></button></div></form>
+<div class="suggestions"><span>JUST EXPLORING?</span><button data-event="A celestial masquerade party">Celestial masquerade ↗</button><button data-event="A 1970s disco Halloween party">Disco Halloween ↗</button><button data-event="An enchanted garden party">Enchanted garden ↗</button></div></section>
+<details class="history-panel"><summary>Previous searches</summary><div id="search-history">Loading history…</div></details>
+<div id="message" role="status" aria-live="polite"></div><section id="results" hidden></section><section id="pieces" hidden></section>
+<footer><span>FROM “WHAT DO I WEAR?” TO “WHERE DID YOU GET THAT?”</span><span>Made for memorable nights ✦</span></footer></main></body></html>

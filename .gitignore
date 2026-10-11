@@ -7,3 +7,10 @@ dist/
 build/
 coverage/
 *.log
+__pycache__/
+*.pyc
+
+.cache/
+generated-preview/
+
+.venv/
